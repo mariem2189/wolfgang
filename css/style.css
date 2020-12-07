@@ -1,0 +1,226 @@
+@font-face{
+    font-family: Bodega;
+    src: url(../fonts/BodegaSans_Black.ttf);
+}
+html
+{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(../img/bg_body.svg);
+    background-color: #444444;
+    margin: 0;
+}
+main, .container{
+    max-width: 1500px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(135deg, #f1f1f1 0%, #f1f1f1 50%, #343434 50%, #343434 100%);
+}
+#logo{
+    float: left;
+}
+#logo img{
+    width: 100%;
+    margin-bottom: 3%;
+}
+header nav {
+    /* float: right; */
+    text-align: right;
+    padding: 2% 0;
+}
+header nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Bodega;
+    font-size: 2.5rem;
+    margin: auto;
+}
+
+span{
+    color: #ff8c00;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bodega;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+    font-family: Bodega;
+    color: white;
+    padding-left: 25px;
+}
+#sec2 article{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 23%;
+    vertical-align: top;
+    background-color: white;
+    margin-right: 2%;
+    padding: 1%;
+    font-family: sans-serif;
+}
+#sec2 article img{
+    width: 100%;
+}
+section h3{
+        color:  #ff8c00;
+        font-size: 2.5rem;
+        font-family: Bodega;
+        text-align: center;
+
+}
+hr{
+    border: 1px solid  #ff8c00;
+    background-color:  #ff8c00;
+}
+#sec2 article img{
+    width: 100%;
+}
+#sec2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #ff8c00;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#sec3 article{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    vertical-align: top;
+    padding: 10px 30px;
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+#rs a{
+    text-align: left;
+    margin-left: 15%;
+    color: white;
+    font-size: 4rem;
+}
+
+#sec3{
+    margin-bottom: 5rem;
+}
+video{
+    width: 100%;
+}
+footer{
+    padding-bottom: 3%;
+    padding-top: 1rem;
+    box-shadow: 1px 0px 10px 1px #888888
+}
+#secfoo1{
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 1,5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+#secfoo1 h4{
+      text-align: center;
+      font-size: 2rem;
+      font-family: Bodega;
+}
+
+#secfoo1 nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family: Bodega;
+}
+#secfoo{
+        width: 100%;
+        margin: auto;
+        font-size: 12px;
+        line-height : normal;
+        text-align: center;
+        margin-top: 5%;
+    }
+#secfoo p{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        color: white;
+}
+#logo3w{
+        display: block;
+        width: 3%;
+        margin: auto;
+        padding-bottom: 1%;
+}
+#secfoo a{
+    color: white;
+}
+/***************Tablette**********************/
+@media screen and (max-width:1024px)
+{
+
+    body{
+        width: 90%;
+        margin: auto;
+    }
+   
+    #sec2 article{
+        display: block;
+        width: 100%;
+        padding:2.5rem;
+        margin-bottom: 2%;
+    }
+    #sec3 a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    #sec3 article{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+/**********Mobile*********************/
+@media screen and (max-width: 767px) 
+{
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    header img{
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+   
+    #sec2 article{
+        display: block;
+        width: 100%;
+        padding:2.5rem;
+        margin-bottom: 2%;
+    }
+    #sec3 a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    #sec3 article{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
